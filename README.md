@@ -3,12 +3,19 @@
 ```ps3_joy_msgs``` is original Msg to control robut by ps3 controller.
 
 
-# PS3 controller
-if ps3 controller is in, check by this command
+# PS3 controller and button
+If ps3 controller is connected, check by this command
 ```zsh
 $ ls -l /dev/input/js*
 ### crw-rw-r--+ 1 root input 13, 0  7 13:53 /dev/input/js0
 ```
+![ps3_axes]()
+![ps3_buttons_front]()
+![ps3_buttons]()
+
+<img src="https://user-images.githubusercontent.com/48679574/157031297-c4567f7e-a34d-41c8-96e0-379c7db03609.jpg" width="300px"><img src="https://user-images.githubusercontent.com/48679574/157031307-7d2ce401-13d0-4443-b7cd-793df5a549e8.jpg" width="300px"><img src="https://user-images.githubusercontent.com/48679574/157031310-ef4a8f19-431d-44e5-b156-8f7663c93d63.jpg" width="300px">
+
+
 
 ## PS3 controller movement check.
 ```zsh
@@ -36,7 +43,7 @@ with "ps3_joy_basic", you can control turtlebot by ps3 controller
 $ roslaunch ps3_joy_basic turtle.launch
 ```
 
-<img src="https://user-images.githubusercontent.com/48679574/157000034-c1490365-5c96-42ce-af54-d113b6c5c5be.png" width="600px">
+<img src="https://user-images.githubusercontent.com/48679574/157000034-c1490365-5c96-42ce-af54-d113b6c5c5be.png" width="500px">
 
 
 
@@ -45,7 +52,7 @@ with "ps3_rviz_move", you can control custmize your robut on Rviz by ps3 control
 $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
 ```
 
-<img src="https://user-images.githubusercontent.com/48679574/157000012-3bf8fec2-4033-489b-a876-524f8819d67e.png" width="600px">
+<img src="https://user-images.githubusercontent.com/48679574/157000012-3bf8fec2-4033-489b-a876-524f8819d67e.png" width="500px">
 
 # References
 ・[ros_lecture](https://github.com/project-srs/ros_lecture)
