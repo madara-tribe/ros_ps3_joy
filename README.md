@@ -47,3 +47,7 @@ $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
 
 <img src="https://user-images.githubusercontent.com/48679574/157000012-3bf8fec2-4033-489b-a876-524f8819d67e.png" width="600px">
 
+# References
+・[ros_lecture](https://github.com/project-srs/ros_lecture)
+・[ROS.org-ps3joy](http://wiki.ros.org/ps3joy)
+・[ROS講座10 カスタムROSメッセージ](https://qiita.com/srs/items/7ac023c549e585caeed0)
