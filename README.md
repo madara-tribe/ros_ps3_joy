@@ -71,9 +71,7 @@ $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
 ## control on gazebo
 with pushing 0-buttun(selsect button), use 1-button for rotate and use 2-button for move ahead or back
 
-<img src="https://user-images.githubusercontent.com/48679574/157031310-ef4a8f19-431d-44e5-b156-8f7663c93d63.jpg" width="300px">
-
-<img src="https://user-images.githubusercontent.com/48679574/160335697-75a8d1be-015a-417c-bcd0-efabef3eeec2.png" width="400px">
+<img src="https://user-images.githubusercontent.com/48679574/157031310-ef4a8f19-431d-44e5-b156-8f7663c93d63.jpg" width="300px"><img src="https://user-images.githubusercontent.com/48679574/160335697-75a8d1be-015a-417c-bcd0-efabef3eeec2.png" width="400px">
 
 # References
 ・[ros_lecture](https://github.com/project-srs/ros_lecture)
