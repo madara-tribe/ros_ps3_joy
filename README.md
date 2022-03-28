@@ -2,6 +2,20 @@
 
 ```ps3_joy_msgs``` is original Msg to control robut by ps3 controller.
 
+## Setup
+```zsh
+# install teleop-twist
+sudo apt-get install ros-noetic-joy
+sudo apt install ros-noetic-teleop-twist-joy
+
+# for turtlebot3 world
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+
+cd ~/catkin_ws && catkin_make
+source ~/.bashrc
+```
 
 # PS3 controller and button
 If ps3 controller is connected, check by this command
