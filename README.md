@@ -34,6 +34,7 @@ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy
 
 # Performance
 
+## control turtlebot
 with "ps3_joy_basic", you can control turtlebot by ps3 controller
 ```zsh
 $ roslaunch ps3_joy_basic turtle.launch
@@ -42,7 +43,7 @@ $ roslaunch ps3_joy_basic turtle.launch
 <img src="https://user-images.githubusercontent.com/48679574/157000034-c1490365-5c96-42ce-af54-d113b6c5c5be.png" width="500px">
 
 
-
+## control robot on rviz
 with "ps3_rviz_move", you can control custmize your robut on Rviz by ps3 controller
 ```zsh
 $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
