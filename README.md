@@ -1,6 +1,9 @@
 # Make robut move on ROS simulation by ps3 controller 
 
 ```ps3_joy_msgs``` is original Msg to control robut by ps3 controller.
+## Version
+- Ubuntu 20.04
+- ROS noetic
 
 ## Setup
 ```zsh
