@@ -25,7 +25,7 @@ If ps3 controller is connected, check by this command
 $ ls -l /dev/input/js*
 ### crw-rw-r--+ 1 root input 13, 0  7 13:53 /dev/input/js0
 ```
-<img src="https://user-images.githubusercontent.com/48679574/157031297-c4567f7e-a34d-41c8-96e0-379c7db03609.jpg" width="300px"><img src="https://user-images.githubusercontent.com/48679574/157031307-7d2ce401-13d0-4443-b7cd-793df5a549e8.jpg" width="300px"><img src="https://user-images.githubusercontent.com/48679574/157031310-ef4a8f19-431d-44e5-b156-8f7663c93d63.jpg" width="300px">
+<img src="https://user-images.githubusercontent.com/48679574/157031297-c4567f7e-a34d-41c8-96e0-379c7db03609.jpg" width="270px"><img src="https://user-images.githubusercontent.com/48679574/157031307-7d2ce401-13d0-4443-b7cd-793df5a549e8.jpg" width="270px"><img src="https://user-images.githubusercontent.com/48679574/157031310-ef4a8f19-431d-44e5-b156-8f7663c93d63.jpg" width="270px">
 
 
 
