@@ -59,7 +59,7 @@ $ roslaunch ps3_joy_basic turtle.launch
 <img src="https://user-images.githubusercontent.com/48679574/157000034-c1490365-5c96-42ce-af54-d113b6c5c5be.png" width="500px">
 
 
-## control robot on rviz
+## control on rviz
 with "ps3_rviz_move", you can control custmize your robut on Rviz by ps3 controller
 ```zsh
 $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
@@ -67,6 +67,9 @@ $ roslaunch ps3_rviz_move movement_robot.launch joy:=true
 
 <img src="https://user-images.githubusercontent.com/48679574/157000012-3bf8fec2-4033-489b-a876-524f8819d67e.png" width="500px">
 
+
+## control on gazebo
+with pushing 0 buttun(selsect button), use for rotate and use for move ahead or back
 # References
 ・[ros_lecture](https://github.com/project-srs/ros_lecture)
 
